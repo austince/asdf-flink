@@ -37,6 +37,7 @@ install_flink () {
     local tempdir=$(mktemp_wrapper $platform $version)
 
     echo $tempdir
+    echo "https://www-us.apache.org/dist/flink/${version}/${extras_version}.tgz"
     curl "https://www-us.apache.org/dist/flink/${version}/${extras_version}.tgz" -o "${tempdir}/archive.tar.gz"
 
     tar -C "$install_path" -xzf "${tempdir}/archive.tar.gz"
