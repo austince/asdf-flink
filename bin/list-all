@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-echo $(
-  curl --silent https://semver.io/node/versions \
-  | grep -E -v '^0\.([0-9])\.'
-)
+# echo $(
+#   curl --silent https://semver.io/node/versions \
+#   | grep -E -v '^0\.([0-9])\.'
+# )
+
+echo "flink-1.4.2 flink-1.5.3 flink-1.6.0"
