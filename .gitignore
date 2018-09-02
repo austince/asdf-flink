@@ -1,1 +1,5 @@
 .vscode
+
+# temp files + directories
+asdf-flink.*.*
+archive.tar.gz
